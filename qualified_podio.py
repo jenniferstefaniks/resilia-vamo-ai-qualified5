@@ -26,7 +26,7 @@ def podio_olimpico(tempo_chegada1, tempo_chegada2, tempo_chegada3):
         terceiro = tempo_chegada2
         
     resultado = f'1 - {primeiro} minutos\n2 - {segundo} minutos\n3 - {terceiro} minutos\n'
-    return resultado
+    return print(resultado)
 
 tempo_chegada1 = 100
 tempo_chegada2 = 10
